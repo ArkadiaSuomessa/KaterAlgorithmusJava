@@ -1,0 +1,18 @@
+public class BlancoMain {
+    public static void main(String[] args) {
+
+        Blanco meinKater = new Blanco();
+
+        while (meinKater.kater) {
+
+            meinKater.KaterSchlaeft();
+
+            Blanco.futter = true;
+            meinKater.KaterIstWach();
+
+            Blanco.girlCat = true;
+            meinKater.KaterIstWach();
+
+        }
+    }
+}
