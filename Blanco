@@ -1,0 +1,38 @@
+public class Blanco {
+    boolean kater = true;
+    static boolean futter;
+    static boolean fressen;
+    static boolean schlafen;
+    static boolean girlCat;
+    static boolean ficken;
+    static boolean beissen;
+    static boolean kacken;
+
+    public static void KaterIstWach() {
+        schlafen = false;
+
+        if (futter == true) {
+            fressen = true;
+            kacken = true;
+        } else {
+            fressen = false;
+            kacken = false;
+        }
+
+        if (girlCat == true) {
+            ficken = true;
+        } else {
+            beissen = true;
+        }
+        System.out.println("Schleicht rum und frisst, kackt, fickt oder beißt.");
+    }
+
+    public static void KaterSchlaeft () {
+        schlafen = true;
+        fressen = false;
+        kacken = false;
+        ficken = false;
+        beissen = false;
+        System.out.println("Liegt rum und haart.");
+    }
+}
